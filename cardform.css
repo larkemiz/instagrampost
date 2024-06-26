@@ -1,0 +1,99 @@
+body {
+    display: flex; 
+    flex-direction: column;
+    padding: 50px;
+    height: 220vh;
+    background-color: #f0f0f0;
+
+}
+
+.all {
+
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);   /* para darle sombra a la caja */
+    border-radius: 10px;
+    padding: 20px; 
+    width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: bold;
+    padding: 20px;
+
+}
+
+.payment p {
+    font-weight: bold;
+    font-size: large;
+    padding-left: 1%;
+}
+
+.userdata, .column1, .column2, .state-postalcode {
+    width: 100%; 
+}
+
+fieldset {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #f3f6f8ef;
+    border-radius: 8px;
+    background-color: #f3f6f8ef; /* Color de fondo gris */
+    position: relative;
+}
+
+
+.carddata {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+    
+}
+
+.userdata {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+input[type="text"], input[type="month"], select, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2px;
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    background-color: #ffffff; /* Fondo blanco */
+    margin-top: 10px;
+}
+
+.column1 .column2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+
+.column2 {
+    margin-left: 1%; /* Separación entre columnas */
+}
+
+
+.send {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.send input[type="submit"] {
+    background-color: #4ca8af;
+    color: white; 
+    border: none;
+    border-radius: 4px; 
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.send input[type="submit"]:hover {
+    background-color: #3e898f; /* color de fondo al pasar el ratón */
+}

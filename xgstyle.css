@@ -1,0 +1,49 @@
+.flexboxmaxima {
+background-image: url(https://www.usatoday.com/gcdn/presto/2023/05/22/USAT/d7bde8e3-b260-4d49-8e0e-3374fa3eae88-XG_SHOOTINGSTAR_ArtistPhoto.jpg?crop=2000,1382,x0,y347);
+   
+}
+
+.flexbox1{
+ display: flex;
+ justify-content: center; 
+ align-items: center;  
+
+
+}
+
+.flexbox2{
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+   
+   }
+   
+
+.titulo {
+    background-color: rgb(64, 88, 133);
+    color: white;
+    font-size: 20px; 
+    font-family: "futura", sans-serif;
+    font-style: italic;
+    border-radius: 15px;
+    width: 50%;
+    align-items: center ;
+    text-align: center;
+
+} 
+
+#resena {
+    background-color: rgb(255, 255, 255);
+    color: rgb(40, 17, 94);
+    font-size: 20px; 
+    font-family: "futura", sans-serif;
+    font-style: italic;   
+} 
+
+#miembros {
+    color: rgb(40, 17, 94);
+    font-size: 20px; 
+    font-family: "futura", sans-serif;
+    font-style: italic; 
+
+}

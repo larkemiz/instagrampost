@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cardform.css">
+    <title>Card form</title>
+</head>
+<body>
+
+<div class = all>
+    <div class = payment >
+        <p> Payment</p>
+    </div>
+
+    <div class = card>
+
+        <div class = carddata>
+            <fieldset>
+                Card number <input type="text" name="cardnumber" value="XXXX XXXX XXXX XXXX" placeholder="" required/>
+            </fieldset>
+
+            <fieldset>
+                CVC <div></div><input type="text" name="CVC" value="000"/>
+            </fieldset>
+
+            <fieldset>
+                <form action="/submit" method="post">
+                Expiration data  <input type="month" id="mes" name="mes" value="2024-06" min="2023-01" >
+            </fieldset>
+        </div>
+    </div>
+
+    <div class = userdata>
+        <div class = column1>
+            <fieldset>
+                First name <input type="text" name="firstname" id="firstname" value="first name">
+            </fieldset>
+
+            <fieldset>
+                City <input type="text" name="city" id="city" value="Santiago">
+            </fieldset>
+
+            <fieldset>
+                <label for="tarjeta1">We accept</label>
+                <input type="radio" name="tarjeta" id="1">
+                <input type="radio" name="tarjeta" id="2">
+                <input type="radio" name="tarjeta" id="3">
+            </fieldset>
+
+        </div>
+        <div class = column2>
+            <fieldset>
+                Last name <input type="text" name="lastname" id="lastname" value="last name">
+            </fieldset>
+
+            <div class = state.postalcode>
+                <fieldset>
+                    State <select name="City"> 
+                        <option value="Arica">Región de Arica y Parinacota. </option> 
+                        <option value="Tarapacá">Región de Tarapacá</option> 
+    
+                    </select>
+                 </fieldset>
+
+                <fieldset>
+                    Post code <input type="text" name="postcode" id="postcode" value="000000">
+                </fieldset>
+            </div>
+            
+            <fieldset>
+                Message<textarea name="comments"></textarea>
+            
+            </fieldset>
+
+            <div class=send>
+                <input type="submit" value="Send Form" />
+            </div>
+
+
+
+
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
